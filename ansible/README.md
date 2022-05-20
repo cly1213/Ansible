@@ -22,3 +22,12 @@ ansible-playbook -i hosts install_apache_httpd.yml --tags "start_apache"
 ansible-playbook -i hosts install_apache_httpd.yml --tags "install_apache"
 ```
 
+### Ansible Vault
+https://docs.ansible.com/ansible/latest/cli/ansible-vault.html
+
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/git_module.html
+```
+ansible-vault create vault-pass.yml
+
+ansible-vault view vault-pass.yml
+```
