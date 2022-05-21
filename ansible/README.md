@@ -31,3 +31,8 @@ ansible-vault create vault-pass.yml
 
 ansible-vault view vault-pass.yml
 ```
+### Ansible Roles
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
+```
+ansible-galaxy init setup-apache
+```
